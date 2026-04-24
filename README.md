@@ -1,19 +1,25 @@
-# JobNest API
+# JobNest API 💼
 
-A Job Application Tracker REST API built with Django and Django REST Framework.
+A Production-Ready Job Application Tracker REST API built with Django and Django REST Framework.
+
+## About
+JobNest helps job seekers track all their job applications in one place — 
+interview details, HR contacts, meeting links, and application status!
 
 ## Features
-- User Register & Login
-- JWT Authentication
-- Track Job Applications
+- User Register & Login — JWT Authentication
+- Track Job Applications with full details
+- Interview Date, Time & Meeting Link
+- HR Name, Email & Phone
 - Filter by Status
 - Search by Company & Role
+- Dashboard — Application Statistics
 - Admin Panel
 
 ## Tech Stack
 - Django
 - Django REST Framework
-- JWT Auth
+- JWT Authentication
 - SQLite
 
 ## API Endpoints
@@ -22,11 +28,12 @@ A Job Application Tracker REST API built with Django and Django REST Framework.
 |---|---|---|
 | /api/register/ | POST | Register |
 | /api/token/ | POST | Login — Token lo |
-| /api/token/refresh/ | POST | Token refresh karo |
+| /api/token/refresh/ | POST | Token refresh |
 | /api/applications/ | GET | Saari jobs dekho |
 | /api/applications/ | POST | Nayi job add karo |
 | /api/applications/?status=applied | GET | Filter karo |
 | /api/applications/?search=Google | GET | Search karo |
+| /api/dashboard/ | GET | Stats dekho |
 
 ## Setup
 
@@ -39,3 +46,4 @@ python manage.py runserver
 
 ## Author
 Ranjit Kumar — Backend Developer
+GitHub: github.com/ranjit622
