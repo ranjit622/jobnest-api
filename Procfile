@@ -1,1 +1,1 @@
-web: python manage.py collectstatic --noinput && python manage.py migrate && gunicorn jobnest.wsgi --bind 0.0.0.0:$PORT
+web: python manage.py migrate --run-syncdb && gunicorn jobnest.wsgi --bind 0.0.0.0:$PORT
