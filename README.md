@@ -2,15 +2,6 @@
 
 A Production-Ready Job Application Tracker REST API built with Django and Django REST Framework.
 
-## 🌍 Live API
-Base URL: https://jobnest-api-production.up.railway.app/api/
-
-## 🚀 Quick Test
-- Register: POST https://jobnest-api-production.up.railway.app/api/register/
-- Login: POST https://jobnest-api-production.up.railway.app/api/token/
-- Applications: GET https://jobnest-api-production.up.railway.app/api/applications/
-- Dashboard: GET https://jobnest-api-production.up.railway.app/api/dashboard/
-
 ## About
 JobNest helps job seekers track all their job applications in one place — 
 interview details, HR contacts, meeting links, and application status!
